@@ -1,0 +1,23 @@
+---
+layout: default
+title: About & Contacts
+---
+<section class="content">
+	<div class="content-cnt fn-clear">
+		<div class="archives">
+			<h4 class="page-title">关于我</span></h4>
+			<article class="entry">
+				<p>{{ site.about }}</p>
+                <h3>联系方式</h3>
+                <p>GMail : <a href="mailto:{{ site.author.email }}"
+                    title="Mail to ZLJ">{{ site.author.email }}</a></p>
+                <h3>更新记录</h3>
+                <ul>
+                    <li><span class="date">2012-08-31</span>: 首次上线</li>
+                </ul>
+                <h3>特别感谢</h3>
+                <p>PIZN提供的BLACK CUBE主题</p>
+			</article>
+		</div>
+	</div>
+</section>
